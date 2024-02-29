@@ -4,5 +4,5 @@
     "commands": ["pip install -r requirements.txt", "python app.py build"]
   },
   "framework": "python",
-  "entrypoint": "app.py"
+  "rewrites": [{ "source": "/(.*)", "destination": "app.py"}]
 }
