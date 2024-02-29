@@ -20,5 +20,3 @@ def predict(condition):
     return ({'drugs': top})
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
